@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+    <div class="container">
+        <h1 id="mainHeading">Stack Overflow Tags Over the Years</h1>
+        <button class="btn" id="toggleGraphBtn">Show Graph</button>
+
+        <div id="loadingIndicator" class="loading">Loading Data...</div>
+
+        <div class="chart-container hidden" id="chartContainer">
+            <canvas id="lineChart"></canvas>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
