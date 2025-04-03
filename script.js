@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     function loadGraphData() {
-        fetch("https://alokraj261201.pythonanywhere.com/")
+        fetch("https://alokraj261201.pythonanywhere.com/data")
             .then(response => {
                 if (!response.ok) {
                     throw new Error("Failed to fetch data");
